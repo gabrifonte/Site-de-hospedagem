@@ -40,7 +40,7 @@ export default function NovoImovel() {
     <main className="min-h-screen bg-white">
 
       <nav className="flex items-center px-10 py-4 border-b shadow-sm sticky top-0 bg-white z-10">
-        <a href="/" className="text-red-500 font-bold text-2xl">airbnb</a>
+        <a href="/" className="text-blue-500 font-bold text-2xl">Wanderstay</a>
       </nav>
 
       <div className="max-w-xl mx-auto px-6 py-10">
@@ -81,7 +81,7 @@ export default function NovoImovel() {
           />
           <button
             onClick={handleSubmit}
-            className="bg-red-500 text-white rounded-xl py-3 font-semibold hover:bg-red-600 transition"
+            className="bg-blue-500 text-white rounded-xl py-3 font-semibold hover:bg-blue-600 transition"
           >
             Cadastrar imóvel
           </button>
