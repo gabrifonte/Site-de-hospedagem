@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <nav className="flex items-center justify-between px-10 py-4 border-b shadow-sm sticky top-0 bg-white z-10">
-        <h1 className="text-red-500 font-bold text-2xl">airbnb</h1>
+        <h1 className="text-red-500 font-bold text-2xl">Wanderstay</h1>
         <input type="text" placeholder="Buscar destino..." className="border rounded-full px-6 py-2 text-sm w-72 shadow-sm focus:outline-none" />
         <a href="/novo" className="border rounded-full px-4 py-2 text-sm font-medium hover:shadow-md">
           + Anunciar imovel
